@@ -1,0 +1,25 @@
+{
+  "name": "claim-submitter",
+  "version": "1.0.0",
+  "description": "Submits claims to XRP Payment Channels",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dappelt/claim-submitter.git"
+  },
+  "author": "Dennis Appelt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dappelt/claim-submitter/issues"
+  },
+  "homepage": "https://github.com/dappelt/claim-submitter#readme",
+  "dependencies": {
+    "bignumber.js": "^4.1.0",
+    "debug": "^3.1.0",
+    "ripple-keypairs": "^0.10.1",
+    "ripple-lib": "^0.17.8"
+  }
+}
